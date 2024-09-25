@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Directory Portal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Company Directory Portal</h1>
+
+    <!-- Form Section -->
+    <section class="form-section">
+        <h2>Employee Registration Form</h2>
+        <form id="employeeForm">
+            <label for="fullName">Full Name:</label>
+            <input type="text" id="fullName" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+
+            <label for="department">Department:</label>
+            <select id="department" required>
+                <option value="IT">IT</option>
+                <option value="HR">HR</option>
+                <option value="Finance">Finance</option>
+                <option value="Marketing">Marketing</option>
+            </select>
+
+            <label for="employeeID">Employee ID:</label>
+            <input type="number" id="employeeID" required>
+
+            <label for="profilePicUrl">Profile Picture URL:</label>
+            <input type="url" id="profilePicUrl">
+
+            <button type="submit">Register Employee</button>
+        </form>
+    </section>
+
+    <!-- Employee List Section -->
+    <section class="employee-list">
+        <h2>Employee List</h2>
+        <ol id="employeeList">
+            <!-- Employee entries will go here -->
+        </ol>
+    </section>
+
+    <!-- Employee Details Table Section -->
+    <section class="employee-details">
+        <h2>Employee Details</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Employee ID</th>
+                    <th>Department</th>
+                    <th>Profile Picture</th>
+                </tr>
+            </thead>
+            <tbody id="employeeTable">
+                <!-- Employee details rows will go here -->
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Embedded Map Section -->
+    <section class="map-section">
+        <h2>Company Location</h2>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509897!2d144.9537353153184!3d-37.81627977975186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0x5045675218cee7f7!2sVictoria%20Harbour%2C%20Docklands%20VIC%203008%2C%20Australia!5e0!3m2!1sen!2sin!4v1602683487071!5m2!1sen!2sin"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+        </iframe>
+    </section>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

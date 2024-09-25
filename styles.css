@@ -1,0 +1,105 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+section {
+    margin: 20px 0;
+}
+
+/* Form Styling */
+.form-section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 60%;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Employee List Styling */
+.employee-list ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+}
+
+.employee-list li {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+.employee-list a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+.employee-list a:hover {
+    text-decoration: underline;
+}
+
+/* Employee Details Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Map Section */
+.map-section {
+    text-align: center;
+    margin: 20px 0;
+}
+
+iframe {
+    border: 0;
+    width: 80%;
+    height: 450px;
+    border-radius: 5px;
+}
